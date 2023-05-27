@@ -9,7 +9,7 @@ class Hero extends HTMLElement {
         <div class="hero-content">
             <h1><span>Find</span> the Authentic Restaurant <span>here</span>.</h1>
             <p>We provide the best Indonesian restaurant recomendation to visit.</p>
-            <button class="cta-btn">Find Out</button>
+            <button class="cta-btn" onclick="window.location.href='#catalogue-section'">Find Out</button>
         </div>
     </section>
         `;

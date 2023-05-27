@@ -6,7 +6,7 @@ const createRestaurantItem = (restaurant) =>
   `<div class="catalogue-card">
         <a href="#/detail/${restaurant.id}" class="card-a-tag">
             <div class="img-container">
-            <img tabindex="0" class="lazyload" alt="${restaurant.name}" src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" crossorigin="anonymous"/>
+            <img tabindex="0" class="lazyload" alt="${restaurant.name}" data-src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" crossorigin="anonymous"/>
             </div>
 
             <div tabindex="0" class="card-rating">
