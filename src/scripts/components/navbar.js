@@ -14,7 +14,7 @@ class Navbar extends HTMLElement {
                 <li><a href="/">Home</a></li>
                 <li><a href="#/favorite">Favorite</a></li>
                 <li>
-                    <a target="_blank" href="https://instagram.com/gilanqf">About Us</a>
+                    <a target="_blank" rel="noopener" href="https://instagram.com/gilanqf">About Us</a>
                 </li>
             </ul>
         </nav>

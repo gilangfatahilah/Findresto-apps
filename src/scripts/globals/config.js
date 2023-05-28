@@ -5,7 +5,7 @@ const CONFIG = {
   DB_NAME: 'find-resto',
   DB_VERSION: 1,
   OBJECT_STORE_NAME: 'restaurant',
-  CACHE_NAME: new Date().toISOString(),
+  CACHE_NAME: 'findrestoCache',
 };
 
 export default CONFIG;
